@@ -52,6 +52,13 @@
 	    <groupId>io.quarkus</groupId>
 	    <artifactId>quarkus-rest-client</artifactId>
 	</dependency>
+	
+	<!-- Openshift -->
+	<dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-openshift</artifactId>
+    </dependency>
+    
   </dependencies>
   <build>
     <plugins>
